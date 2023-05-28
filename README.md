@@ -45,8 +45,15 @@ A 0.01uF decoupling capacitor was added for the crystal oscillator.
 ### Schematic
 ![image](https://github.com/pingpongballz/WM8758-breakout-board/assets/74599812/3807f7eb-5310-447d-ba54-a93f4e4086de)
 
+Quick note: 4.7uF decoupling caps were recommended, but I also found that 1uF caps are also acceptable.
+
 ### PCB
-WIP. Need to find the pictures. :P
+
+![image](https://github.com/pingpongballz/WM8758-breakout-board/assets/74599812/249e4f81-c982-4a94-9ec0-9d5deb4ab958)
+
+![image](https://github.com/pingpongballz/WM8758-breakout-board/assets/74599812/8acaebf6-a710-435b-8617-b6be29c306bd)
+
+Note: Pinout naming for 'SPI' is slightly incorrect. It should be 'I2C/SPI' as the WM8758 also accepts I2C as a control interface (with MODE pin grounded)
 
 ## References
 [1] Cirrus Logic, “Stereo CODEC with Headphone Driver and Line Out” WM8758B datasheet, Dec. 2011 [Revised Jan. 2012].
