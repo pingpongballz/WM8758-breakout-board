@@ -55,6 +55,9 @@ Quick note: 4.7uF decoupling caps were recommended, but I also found that 1uF ca
 
 Note: Pinout naming for 'SPI' is slightly incorrect. It should be 'I2C/SPI' as the WM8758 also accepts I2C as a control interface (with MODE pin grounded)
 
+Here is another more compact PCB, meant to be used as a raspberry pi pico HAT.
+![image](https://github.com/pingpongballz/WM8758-breakout-board/assets/74599812/a1b9c564-09d7-40d7-9647-f2011f827253)
+
 ### Programming the WM8758
 
 Pages 78 to 79 of [1] has the entire register map of the WM8758. I won't elaborate on how to program it; if you would like more info on the programming, feel free to contact me.
