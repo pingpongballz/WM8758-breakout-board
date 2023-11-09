@@ -59,7 +59,7 @@ Note: Pinout naming for 'SPI' is slightly incorrect. It should be 'I2C/SPI' as t
 
 Pages 78 to 79 of [1] has the entire register map of the WM8758. I won't elaborate on how to program it; if you would like more info on the programming, feel free to contact me.
 
-The WM8758 board was tested on a raspberry pi pico; You can find the CMake files for the pi pico project under the 'src' folder.
+The WM8758 board was tested on a raspberry pi pico; You can contact me if you want the files.
 
 ## References
 [1] Cirrus Logic, “Stereo CODEC with Headphone Driver and Line Out” WM8758B datasheet, Dec. 2011 [Revised Jan. 2012].
